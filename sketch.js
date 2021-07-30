@@ -31,6 +31,7 @@
           boy.addAnimation("SahilRunning",boyImg);
           boy.scale=0.08;
             
+          boy.debug = true;
             
           cashG=new Group();
           diamondsG=new Group();
@@ -108,7 +109,7 @@
             cash.addImage(cashImg);
             cash.scale=0.12;
             cash.velocityY = 3;
-            cash.lifetime = 150;
+            cash.lifetime = 800;
             cashG.add(cash);
             }
           }
@@ -119,7 +120,7 @@
             diamonds.addImage(diamondsImg);
             diamonds.scale=0.03;
             diamonds.velocityY = 3;
-            diamonds.lifetime = 150;
+            diamonds.lifetime = 800;
             diamondsG.add(diamonds);
           }
           }
@@ -130,7 +131,7 @@
             jwellery.addImage(jwelleryImg);
             jwellery.scale=0.13;
             jwellery.velocityY = 3;
-            jwellery.lifetime = 150;
+            jwellery.lifetime = 800;
             jwelleryG.add(jwellery);
             }
           }
@@ -141,7 +142,7 @@
             sword.addImage(swordImg);
             sword.scale=0.1;
             sword.velocityY = 3;
-            sword.lifetime = 150;
+            sword.lifetime = 800;
             swordGroup.add(sword);
             }
           }
